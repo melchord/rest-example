@@ -64,7 +64,7 @@ export default class CreateUser extends Component {
               type='text'
               className='form-control'
               value={this.state.email}
-              onChange={this.onChangeUserName}
+              onChange={this.onChangeUserEmail}
             />
           </div>
           <div className='form-group'>

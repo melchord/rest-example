@@ -7,12 +7,13 @@ import Users from './components/users.component';
 
 function App() {
   return (
-    <Router>
-      <div className='App'>
+    <div className='App'>
+      <Router>
         <header>
           <nav className='navbar navbar-expand-lg navbar-dark bg-primary'>
-            <a className='navbar-brand'>React Axios Tutorial</a>
-
+            <a className='navbar-brand' href='/'>
+              React Axios Tutorial
+            </a>
             <div className='collapse navbar-collapse' id='navbarSupportedContent'>
               <ul className='navbar-nav ml-auto'>
                 <li className='nav-item active'>
@@ -41,8 +42,8 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
